@@ -1,3 +1,14 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
 header {
     background: linear-gradient(135deg, #1e1e2f, #161622);
     color: #ffffff;
