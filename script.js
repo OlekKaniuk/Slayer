@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll('.photoCart');
 const audioPlayer = new Audio();
-const scrollTopBtn = document.querySelector('.scrollTopBtn');
+const scrollTopBtn = document.getElementById('scrollTopBtn');
 
 cards.forEach(card => {
     card.addEventListener('click', (e) => {
@@ -30,6 +30,5 @@ scrollTopBtn.addEventListener('click', (e) => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
-
     });
-})
+});
