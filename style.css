@@ -93,3 +93,34 @@ footer {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
 }
+
+@media (max-width: 768px) {
+
+    header, footer {
+        padding: 15px 10px;
+    }
+
+    header h2, .footerText {
+        font-size: 1.4rem;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .photoCart {
+        width: 45%;
+    }
+
+    .photoCart img {
+        width: 100%;
+        height: auto;
+    }
+}
