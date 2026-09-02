@@ -49,6 +49,8 @@ header {
     letter-spacing: 2px;
     font-family: "Montserrat", "Segoe UI", sans-serif;
     line-height: 1;
+    user-select: none;
+    cursor: default;
 }
 
 .nav-links {
