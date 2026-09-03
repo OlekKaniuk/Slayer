@@ -208,6 +208,16 @@ section {
     display: block;
 }
 
+.photoCart.is-speaking {
+
+    --speaking-color: #ff9f43;
+
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 0 30px var(--speaking-color), 0 0 10px #ffffff !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 10 ;
+}
+
 .characterText {
     text-align: center;
     padding: 12px 8px;
@@ -463,3 +473,27 @@ footer {
         opacity: 0;
     }
 }
+
+/* colors for characters */
+/* --- Унікальні кольори підсвічування при відтворенні --- */
+
+/* Стовпи (Hashira) */
+.hashira-flame.is-speaking { --speaking-color: #ff3f34; }  /* Ренґоку: Червоний */
+.hashira-water.is-speaking { --speaking-color: #1e90ff; }  /* Гію: Синій */
+.hashira-insect.is-speaking { --speaking-color: #a29bfe; } /* Шинобу: Бузковий */
+.hashira-mist.is-speaking { --speaking-color: #00cec9; }   /* Муічіро: Бірюзовий */
+.hashira-sound.is-speaking { --speaking-color: #f1c40f; }  /* Узуй: Золотий */
+.hashira-stone.is-speaking { --speaking-color: #ff793f; }  /* Гьомей: Помаранчевий */
+.hashira-serpent.is-speaking { --speaking-color: #2ecc71; } /* Обанай: Зелений */
+.hashira-wind.is-speaking { --speaking-color: #55efc4; }   /* Санемі: Світло-зелений */
+
+/* Демони */
+.enemies.is-speaking { --speaking-color: #d63031; }      /* Усі демони: Криваво-червоний */
+
+/* Головні герої */
+.slayer-tanjiro.is-speaking { --speaking-color: #2ed573; } /* Танджіро: Смарагдово-зелений */
+.slayer-zenitsu.is-speaking { --speaking-color: #ffa502; } /* Дзеніцу: Блискавично-жовтий */
+.slayer-inoske.is-speaking { --speaking-color: #70a1ff; } /* Іноске: Синьо-блакитний */
+.slayer-nezuko.is-speaking { --speaking-color: #ff6b81; }   /* Недзуко: Ніжно-рожевий */
+.slayer-genia.is-speaking { --speaking-color: #9b59b6; } /* Генья: Темно-фіолетовий */
+.slayer-kanao.is-speaking { --speaking-color: #ffb8b8; } /* Канао: Ніжно-сакуровий */
