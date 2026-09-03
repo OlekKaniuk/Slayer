@@ -62,6 +62,8 @@ header {
     width: auto;
     object-fit: contain;
     display: block;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .logo span {
@@ -73,6 +75,7 @@ header {
     line-height: 1;
     user-select: none;
     cursor: default;
+    user-select: none;
 }
 
 .nav-links {
@@ -89,6 +92,12 @@ header {
 
 .nav-links a:hover {
     color: #ff9f43;
+}
+
+.nav-links a,
+.dropdown-content a,
+.dropdown-btn {
+    cursor: pointer !important;
 }
 
 .dropdown {
