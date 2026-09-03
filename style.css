@@ -201,6 +201,91 @@ section {
     color: #2c3e50;
 }
 
+@media (hover: hover) {
+    .hashira-flame:hover {
+        box-shadow: 0 0 20px rgba(255, 107, 0, 0.8), 0 0 40px rgba(255, 159, 67, 0.5);
+        border: 1px solid #ff6b00;
+    }
+
+    .hashira-sound:hover {
+        box-shadow: 0 0 20px rgba(253, 203, 110, 0.9), 0 0 40px rgba(225, 112, 85, 0.5);
+        border: 1px solid #fdcb6e;
+    }
+
+    .hashira-mist:hover {
+        box-shadow: 0 0 20px rgba(85, 239, 196, 0.8), 0 0 40px rgba(0, 184, 148, 0.5);
+        border: 1px solid #55efc4;
+    }
+
+    .hashira-insect:hover {
+        box-shadow: 0 0 20px rgba(162, 155, 254, 0.9), 0 0 40px rgba(108, 92, 231, 0.5);
+        border: 1px solid #a29bfe;
+    }
+
+    .hashira-stone:hover {
+        box-shadow: 0 0 20px rgba(225, 112, 85, 0.9), 0 0 30px rgba(99, 110, 114, 0.6);
+        border: 1px solid #e17055;
+    }
+
+    .hashira-serpent:hover {
+        box-shadow: 0 0 20px rgba(0, 184, 148, 0.9), 0 0 40px rgba(85, 239,196, 0.4);
+        border: 1px solid #00b894;
+    }
+
+    .hashira-water:hover {
+        box-shadow: 0 0 20px rgba(9, 132, 227, 0.8), 0 0 40px rgba(0, 206, 201, 0.5);
+        border: 1px solid #0984e3;
+    }
+
+    .hashira-wind:hover {
+        box-shadow: 0 0 20px rgba(46, 204, 113, 0.9), 0 0 40px rgba(168, 230, 207, 0.5);
+        border: 1px solid #2ecc71;
+    }
+
+    .enemies:hover {
+        box-shadow: 0 0 20px rgba(214, 48, 49, 0.9), 0 0 40px rgba(139, 0, 0, 0.6);
+        border: 1px solid #d63031;
+    }
+
+    .slayer-tanjiro:hover {
+        box-shadow: 0 0 20px rgba(235, 77, 75, 0.9), 0 0 40px rgba(240, 147, 43, 0.6);
+        border: 1px solid #eb4d4b;
+    }
+
+    .slayer-nezuko:hover {
+        box-shadow: 0 0 20px rgba(255, 121, 198, 0.9), 0 0 40px rgba(255, 85, 85, 0.5);
+        border: 1px solid #ff79c6;
+    }
+
+    .slayer-inoske:hover {
+        box-shadow: 0 0 20px rgba(52, 152, 219, 0.9), 0 0 40px rgba(127, 140, 141, 0.5);
+        border: 1px solid #3498db;
+    }
+
+    .slayer-zenitsu:hover {
+        box-shadow: 0 0 20px rgba(241, 196, 15, 0.9), 0 0 40px rgba(243, 156, 18, 0.6);
+        border: 1px solid #f1c40f;
+    }
+
+    .slayer-kanao:hover {
+        box-shadow: 0 0 20px rgba(255, 183, 178, 0.9), 0 0 40px rgba(226, 149, 120, 0.5);
+        border: 1px solid #ffb7b2;
+    }
+
+    .slayer-genya:hover {
+        box-shadow: 0 0 20px rgba(142, 68, 173, 0.9), 0 0 40px rgba(44, 62, 80, 0.6);
+        border: 1px solid #8e44ad;
+    }
+
+
+
+
+
+
+
+
+}
+
 footer {
     background: linear-gradient(135deg, #1e1e2f, #161622);
     color: #ffffff;
